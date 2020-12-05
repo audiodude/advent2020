@@ -18,7 +18,7 @@ def s(low, high, command):
 nums = []
 for pass_ in passes:
   row = s(0, 127, pass_[:7])
-  seat = s(0, 7, pass_[8:])
+  seat = s(0, 7, pass_[7:])
   nums.append(row * 8 + seat)
 
 print(max(nums))
