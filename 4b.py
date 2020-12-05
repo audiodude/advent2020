@@ -1,5 +1,6 @@
 import fileinput
 import re
+
 passports = []
 passport = []
 for line in fileinput.input():
